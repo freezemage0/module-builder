@@ -1,0 +1,22 @@
+{
+    "name": "shfm/module-builder",
+    "description": "Bitrix Module Builder CLI tool",
+    "type": "library",
+    "require": {
+        "php": "^7.4",
+        "symfony/console": "^5.3"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Shfm\\ModuleBuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Freezemage",
+            "email": "freezemage0@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

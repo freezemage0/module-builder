@@ -1,0 +1,14 @@
+<?php
+
+
+namespace {{MODULE_NAMESPACE}}\Controller;
+
+
+use Bitrix\Main\Response;
+use Bitrix\Main\Engine\Controller;
+
+
+class {{CONTROLLER_NAME}} extends Controller
+{
+    {{METHODS}}
+}

@@ -1,0 +1,10 @@
+<?php
+
+
+class {{CLASS_NAME}} extends CBitrixComponent
+{
+    public function executeComponent()
+    {
+        $this->includeComponentTemplate();
+    }
+}
